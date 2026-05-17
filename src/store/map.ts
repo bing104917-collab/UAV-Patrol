@@ -21,7 +21,7 @@ export const useMapStore = defineStore('map', () => {
     hasInitiallyLocated.value = val
   }
 
-  return {  
+  return {
     hasInitiallyLocated,
     setViewer,
     clearViewer,
